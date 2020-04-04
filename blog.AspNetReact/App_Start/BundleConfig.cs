@@ -27,7 +27,7 @@ namespace blog.AspNetReact
                       "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/react-bundle").Include(
-                      "~/Scripts/dist/Home/react/bundle.js"));
+                      "~/Scripts/react-bundle.js"));
         }
     }
 }
