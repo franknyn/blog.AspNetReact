@@ -25,6 +25,9 @@ namespace blog.AspNetReact
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/react-bundle").Include(
+                      "~/Scripts/dist/Home/react/bundle.js"));
         }
     }
 }
